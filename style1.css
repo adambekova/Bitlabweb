@@ -1,0 +1,199 @@
+.common {
+    background-color: blue;
+
+}
+
+.header {
+    width: 40%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+
+}
+
+.search {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    width: 15%;
+}
+
+.content a {
+    margin-top: 20px;
+    font-size: 100%;
+    width: 51%;
+}
+
+.person {
+    margin-top: 15px;
+    width: 25%;
+    background-color: white;
+    border: 5px solid white;
+    
+}
+
+.person img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 70%;
+}
+
+.person button {
+    width: 100%;
+    border: none;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+
+
+.frendly {
+    margin-top: 15px;
+    margin-left: 15%;
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: white;
+    border: 5px solid white;
+}
+
+.frendly img {
+    margin-left: 15%;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.frendly p {
+    color: black;
+    margin-left: 10%;
+}
+
+.photos {
+    margin-left: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.photos div {
+    justify-content: center;
+    width: 33%;
+}
+
+.photos p {
+    color: gray;
+    margin-left: 25%;
+}
+
+.personal {
+    width: 50%;
+    background-color: white;
+    color: gray;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.personal h1 {
+    margin-left: 20px;
+}
+
+.personal p {
+    margin-left: 20px;
+}
+
+.status {
+    display: flex;
+}
+
+.status p {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.dannye {
+    display: flex;
+}
+
+.dannye div {
+    width: 50%;
+}
+
+.bloknot {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.photo {
+    background-color: white;
+    margin-left: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+  
+
+}
+
+.photo img {
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.photo p {
+    margin-left: 20px;
+}
+
+.photo div {
+
+    border: none;
+    margin: 5px 5px 10px;
+    justify-content: space-evenly;
+}
+
+
+.name {
+    background-color: white;
+    margin-left: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-around;
+}
+
+.name img {
+    margin-top: 10px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.main {
+    display: flex;
+}
+
+.name3 p{
+ 
+    color: gray;
+}
+.name2 p{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    color: gray;
+}

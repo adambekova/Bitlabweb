@@ -1,0 +1,8 @@
+var abStr=prompt("Insert a and b and c seperated by space")
+var abArray=abStr.split(' ')
+var a=parseInt(abArray[0])
+var b=parseInt(abArray[1])
+var c=parseInt(abArray[2])
+alert("a+b+c="+(a+b+c))
+alert("a-b-c="+(a-b-c))
+alert("a*b*c="+(a*b*c))
