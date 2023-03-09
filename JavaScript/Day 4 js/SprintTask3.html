@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <title>SprinTask3</title>
+    <link rel="stylesheet" href="style3.css">
+    <style>
+        * {
+            background-color: #f8f9fa;
+        }
+    </style>
+</head>
+
+<body>
+            <div class="enter">
+            <h1>Пожалуйста, введите сумму и выберите вид валюты:</h1>
+            <div class="select">
+                <div class="choice">
+                    <p>Введите сумму и выберите вид валюты:</p>
+                    <input type="number" id="amount">
+                    <select id="selector">
+                        <option value="KZT">KZT</option>
+                        <option value="USD">USD</option>
+                        <option value="EUR">EUR</option>
+                    </select>
+                </div>
+                <div class="TENGE">
+                    <p><b>KZT (tenge)</b></p>
+                    <div class="currencyTng">
+                        <p id="tng">-</p>
+                    </div>
+                </div>
+
+                <div class="DOLLAR">
+                    <p><b>USD (dollar)</b></p>
+                    <div class ="currencyDol">
+                        <p id="dol">-</p>
+                    </div>
+                </div>
+               <div class="EURO">
+                <p><b>EUR (euro)</b></p>
+                <div class="currencyEur">
+                    <p id="eur">-</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="SprintTask3.js"></script>
+</body>
+
+</html>

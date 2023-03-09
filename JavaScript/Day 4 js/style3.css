@@ -1,0 +1,66 @@
+.enter1 h1{
+    padding: 30px;
+    background-color: rgb(100, 116, 167);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.select{
+    display: flex;
+    padding: 30px;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.choice{
+    background-color: white;
+}
+.choice p{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}   
+.TENGE{
+    background-color: white;
+}
+.TENGE b{
+    background-color: white;
+    color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.currencyTng.p{
+border:20px solid grey;
+}
+
+.DOLLAR{
+    background-color: white;
+}
+.DOLLAR b{
+    background-color: white;
+    color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.currencyDol.p{
+border:20px solid grey;
+}
+
+.EURO{
+    background-color: white;
+}
+.EURO b{
+    background-color: white;
+    color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.currencyEur.p{
+border:20px solid grey;
+}
