@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="styleSprintTask4.css">
+</head>
+
+<body>
+    
+        <div class="contents">
+            <h1>TWITTER</h1>
+            <div class="buttons">
+            <button class="button">Tweets</button>
+            <button class="button" onclick="login()">Login</button>
+            <button class="button">Register</button>
+        </div>
+    </div>
+    <div class="main">
+        <div class="empty"></div>
+        <div class="data">
+            <div>
+                <p>EMAIL:</p>
+                <input class="text" id="email">
+            </div>
+            <div>
+                <p>PASSWORD:</p>
+                <input class="password" id="password">
+            </div>
+            <div>
+                <p>FULL NAME:</p>
+                <input class="text" id="fullname">
+            </div>
+            <div>
+                <p>COUNTRY:</p>
+                <select class="text" id="country">
+                    <option>Kazakhstan</option>
+                    <option>USA</option>
+                    <option>China</option>
+                </select>
+            </div>
+            <div class="birthday">
+                <p>BIRTHDATE:</p>
+                <input type="date" id="birth">
+            </div>
+            <div class="click">
+                <button onclick="registration()">REGISTER</button>
+            </div>
+        </div>
+        <div class="empty"></div>
+    </div>
+    <script src="SprintTask4.js"></script>
+</body>
+
+</html>

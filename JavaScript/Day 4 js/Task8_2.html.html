@@ -1,0 +1,53 @@
+<html>
+<head>
+<meta charset="utf-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+	$(document).ready(function() {
+		$('.down').click(function () {
+			var $input = $(this).parent().find('input');
+			var count = parseInt($input.val()) - 1;
+			count = count < 1 ? 1 : count;
+			$input.val(count);
+			$input.change();
+			return false;
+		});
+		$('.up').click(function () {
+			var $input = $(this).parent().find('input');
+			$input.val(parseInt($input.val()) + 1);
+			$input.change();
+			return false;
+		});
+	});
+</script>
+<style>
+.amount {
+	width:200px;
+	margin:100px auto;
+}
+.amount span {
+	display:inline-block;
+	width:20px;
+	height:20px;
+	background:#ededed;
+	cursor:pointer;
+	text-align:center;
+}
+.amount span:hover {
+	background:#dfdfdf;
+}
+.amount input {
+	width:30px;
+	text-align:center;
+}
+</style>
+</head>
+<body>
+<div class="amount">
+	<span class="down">-</span>
+    <input type="text" value="0" />
+	<span class="up">+</span>
+</div>
+</body>
+</html>
+ 

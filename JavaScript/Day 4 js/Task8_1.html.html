@@ -1,0 +1,75 @@
+<html>
+
+<head>
+    <title>Task8_1</title>
+    <style>
+        * {
+            background-color: #f8f9fa;
+        }
+
+        .invalid {
+            border-color: red;
+        }
+
+        .error {
+            height: 25px;
+            color: red;
+        }
+
+        form {
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="myform">
+        LOGIN: <input type="text" name="login">
+        <div id="loginError" class="error"></div>
+
+        PASSWORD: <input type="password" name="password">
+        <div id="passwordError" class="error"></div>
+
+        <button type="button" onclick="checkUser()">Sign in</button>
+    </form>
+
+    <script>
+        let usersArray = [
+            { login: 'ileke', password: 'ileke123' },
+            { login: 'aieke', password: 'aieke123' },
+            { login: 'eleke', password: 'eleke123' }
+        ]
+
+            let logField = myform.elements.login
+            let passField = myform.elements.password
+
+        function checkUser() {
+          
+            if (logField.value == "")
+                loginError.innerHTML = "Please enter login"
+
+            if (passField.value == "")
+                passwordError.innerHTML = "Please enter password"
+    
+            if (logField.value != "" && passField.value != "") {
+                let authenticated = false
+
+                for (let u of usersArray) {
+                
+                    if (logField.value == u.login && passField.value == u.password) {
+                        alert("You are authenticated")
+                        authenticated = true
+                        break;
+                    }
+                }
+                if (!authenticated) {
+                    alert('No user with such login and password')
+                }
+            }
+        }
+
+    </script>
+</body>
+
+</html>
